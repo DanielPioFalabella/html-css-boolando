@@ -2,5 +2,90 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 14px;
 }
+
+/* Utility class */
+
+.card {
+    width: calc(100% / 3 - (20px /3));
+    padding-bottom: 30px;
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+}
+
+.promozione {
+    position: absolute;
+    background-color: red;
+    color: white;
+    bottom: 115px;
+    font-weight: 800;
+    font-size: 11px;
+    padding: 4px 7px;
+}
+
+.sostenibilità {
+    position: absolute;
+    background-color: green;
+    color: white;
+    bottom: 115px;
+    left: 44px;
+    font-weight: 800;
+    font-size: 11px;
+    padding: 4px 7px;
+}
+
+.sostenibilità2 {
+    position: absolute;
+    background-color: green;
+    color: white;
+    bottom: 115px;
+    left: 0px;
+    font-weight: 800;
+    font-size: 11px;
+    padding: 4px 7px;
+}
+
+.grassetto {
+    font-weight: 600;
+}
+
+.font-mini {
+    font-size: 11px;
+}
+
+.color-red {
+    color: red;
+}
+
+
+
+.header {
+    width: 100%;
+    background-color: rgb(255, 98, 0);
+    color: white;
+    padding: 0 12%;
+    font-weight: 900;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.header img {
+    max-height: 26px;
+}
+
+.container {
+    width: 76%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
 
