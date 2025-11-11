@@ -49,6 +49,16 @@ img {
     padding: 4px 7px;
 }
 
+.cuore-card {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    padding: 10px 14px;
+    padding-right: 28px;
+}
+
 .grassetto {
     font-weight: 600;
 }
@@ -60,6 +70,20 @@ img {
 .color-red {
     color: red;
 }
+
+.footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 20px 12%;
+    border-bottom: white solid 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
 
 
 
@@ -88,4 +112,18 @@ img {
     gap: 10px;
 }
 
+.img-second {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
 
+.card:hover .img-second {
+    display: block;
+    cursor: pointer;
+}
+
+.footer a {
+    padding-right: 7px;
+}
